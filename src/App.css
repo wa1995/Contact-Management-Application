@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+ 
+}
+
+.formheader {
+  margin-left: 60px;
+  
+}
+
+.addcontact {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  margin-left: 12px;
+  background-color: #f5f5f5;
+  
+
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #d1d9de;
+  border-radius: 8px;
+  color: #151515;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  background-color: #daddda; 
+}
+
+button:hover {
+  background-color: #a4a5a6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+
+  margin-bottom: 16px;
+  width: 20%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #daddda; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.savedContact {
+  background-color: #daddda; 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 5px solid #daddda; /* A border color to distinguish the saved contact */
+  border-radius: 8px;
+ 
 }
+
+.contactList{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  background-color: #333;
+  color: #fff;
+}
+.name {
+  font-weight: bold;
+}
+
+.email {
+  font-weight: bold;
+  
+}
+.delete-button {
+  cursor: pointer;
+  color: #e74c3c; /* Red color for delete button */
+  
+}
+.body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+}
+ 
