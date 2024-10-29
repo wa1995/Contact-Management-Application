@@ -1,6 +1,11 @@
 # Contact Management Application
 Deployment Link : https://mellow-bavarois-e23158.netlify.app//
 
+In the project directory, you can run:
+
+npm start
+Runs the app in the development mode.
+
 ## Overview
 
 As the lead developer for a Contact Management Application, I successfully designed and implemented a dynamic and intuitive system for organizing and managing contacts. This comprehensive solution ensures a seamless user experience, with features such as persistent data storage, contact addition, and deletion.
