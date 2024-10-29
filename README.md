@@ -1,4 +1,7 @@
 # Contact Management Application
+
+An intuitive and dynamic Contact Management Application designed to simplify the organization and management of contacts. Built with a focus on responsive design and persistent data storage, this application offers a seamless user experience, making it easy to add, delete, and manage contacts.
+
 Deployment Link : https://mellow-bavarois-e23158.netlify.app//
 
 In the project directory, you can run:
@@ -28,3 +31,8 @@ Developed functionality to add new contacts dynamically, with each contact assig
 ### Future Enhancements
 Continuously exploring opportunities for improvement, with planned enhancements including advanced search capabilities, contact categorization, and integration with external APIs for enriched contact information.
 
+### Technologies Used
+React.js for front-end development
+CSS for styling and responsive design
+uuid library for generating unique identifiers
+Local Storage API for data persistence
