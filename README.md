@@ -3,7 +3,7 @@ Deployment Link : https://mellow-bavarois-e23158.netlify.app//
 
 In the project directory, you can run:
 
-###npm start
+**npm start**
 Runs the app in the development mode.
 
 ## Overview
